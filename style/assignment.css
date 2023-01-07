@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* main section */
+main {
+    margin: 0 auto;
+}
+
+/* my 1st section style for banner */
+.banner {
+    background-image: url(../images/banner/banner2.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    text-align: right;
+    justify-content: right;
+    justify-content: center;
+}
+.banner-content{
+    margin-right: 230px;
+}
+.banner-right-text-plus-btn {
+    text-align: end;
+    justify-content: end;
+    size: 400px;
+    gap: 20px;
+    position: end;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: 150px;
+}
+
+.banner-description {}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: chocolate;
+    text-decoration: none;
+    border: 0;
+}
+
+/* my 2st section with left woman and right text style */
+
+.my-failures-section {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filures-img {
+    margin-left: 100px;
+}
+
+.filure-title {
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.failures-content {
+    margin-right: 150px;
+    align-items: center;
+    list-style: none;
+}
+
+.failures-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* this is 3rd section my plan style start here */
+
+.plan-section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.plan-container {
+    display: flex;
+}
+
+.plan {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    width: 1140px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-around;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* experment */
+/* What i do styles */
+
+.plan-container {
+    display: flex;
+    gap: 24px;
+}
+
+.plan {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.plan-description {
+    color: #757575;
+}
+
+/* 4th section style start for keep a positive */
+
+.keep-positive {
+    background-image: url(../images/watch.png);
+    height: 300px;
+    width: 1140px;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+}
+
+.keep-positive-title {
+    padding: 40px;
+    font-size: 40px;
+}
+
+.keep-positive-btn {
+    padding: 15px 25px;
+    height: auto;
+    color: #F15B22;
+    Weight: 600px;
+    size: 20px;
+    border-radius: 5px;
+    border-style: none;
+
+}
+
+/* future style start here */
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.future {
+
+    color: white;
+    padding-left: 230px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.social-icon ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.subscribe {
+    color: white;
+    padding: 130px 230px;
+}
+
+.subscribe-title {
+    font-size: 25px;
+
+}
+
+.subscribe-field {
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 15px;
+    padding: 15px 25px;
+    color: #F15B22;
+    Weight: 600px;
+    size: 20px;
+    border-radius: 5px;
+
+}
+
+.subscribe-btn {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 2px;
+    height: auto;
+    padding: 15px 25px;
+    color: #F15B22;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
